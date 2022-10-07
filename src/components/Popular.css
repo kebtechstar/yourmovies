@@ -1,0 +1,48 @@
+.popular {
+    margin-top: 10%;
+    color:  white;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 5px;
+    padding-left: 10%;
+}
+
+.popular h1 {
+        padding-left:  10%;
+}
+
+.popular-movies {
+    width: 100%;
+    box-shadow: 0 0 5px 2px #000000;
+}
+
+.pcover {
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template: auto / repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+.pimg {
+    width: 50%;
+    height: 55vh;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .pcover {
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template: auto / repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .pimg {
+        width: 70%;
+        height: 60vh;
+        object-fit: contain;
+    }
+    
+  }

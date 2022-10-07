@@ -1,0 +1,33 @@
+/*   
+  font-family: 'Shrikhand', cursive;
+    font-family: 'Pacifico', cursive;
+  font-family: 'Jost', sans-serif;
+  font-weight: bolder;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centralContainer {
+  margin: 0;
+  padding: 2%;
+  position: relative;
+ background-color: rgb(20, 15, 7);
+}
+
+.contain {
+  background-color: rgb(29, 21, 9);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .centralContainer {
+    padding: 0;
+  }
+}

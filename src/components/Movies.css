@@ -1,0 +1,45 @@
+#movies {
+    margin-top: 10%;
+    color:  white;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 5px;
+}
+
+#movies h1 {
+        padding-left:  10%;
+}
+
+.cover {
+    padding: 10%;
+    width: 100%;
+    display: grid;
+    grid-template: auto / repeat(auto-fit, minmax(200px, 1fr))
+}
+
+
+.img {
+    width: 60%;
+    height: 50vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+img:hover {
+    scale: 0.8;
+}
+
+@media only screen and (max-width: 500px) {
+    .cover {
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template: auto / repeat(auto-fit, minmax(170px, 1fr));
+    }
+
+    .img {
+        width: 70%;
+        height: 60vh;
+        object-fit: contain;
+    }
+    
+  }
